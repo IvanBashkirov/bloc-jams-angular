@@ -14,7 +14,6 @@
  }
  .hero-content .hero-title {
    position: absolute;
-   /* positioning will be explained in a resource */
    top: 40%;
    /* positioning will be explained in a resource */
    -webkit-transform: translateY(-50%);
@@ -43,16 +42,7 @@
    position: relative;
    padding: 2rem;
    text-align: center;
-   opacity: 0;
-   -webkit-transform: scaleX(0.9) translateY(3rem);
-   -moz-transform: scaleX(0.9) translateY(3rem) ro;
-   transform: scaleX(0.9) translateY(3rem);
-   -webkit-transition: all 0.25s ease-in-out;
-   -moz-transition: all 0.25s ease-in-out;
-   transition: all 0.25s ease-in-out;
-   -webkit-transition-delay: 0.2s;
-   -moz-transition-delay: 0.2s;
-   transition-delay: 0.2s;
+   opacity: 1;
  }
  .point .point-title {
    font-size: 1.25rem;
