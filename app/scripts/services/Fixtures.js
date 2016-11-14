@@ -64,10 +64,19 @@
           title: 'Wrong phone number',
           duration: '2:15'
         }
-   ]
+      ]
     };
-    Fictures.getAlbum = function () {
+
+    Fixtures.getAlbum = function () {
       return albumPicasso;
+    };
+
+    Fixtures.getCollection = function (n) {
+      var albums = [];
+      for (var i = 0; i < n; i++) {
+        albums.push(albumPicasso);
+      }
+      return albums;
     };
     return Fixtures;
   }
