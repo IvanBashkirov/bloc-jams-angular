@@ -34,7 +34,11 @@
           };
         };
         
-
+        scope.thumbStyle = function () {
+          return {
+            left: percentString()
+          };
+        };
 
         scope.trackThumb = function () {
           $document.bind('mousemove.thumb', function (event) {
