@@ -11,7 +11,7 @@
     };
 
     return {
-      tempateUrl: '/templates/directives/seek_bar.html',
+      templateUrl: 'templates/directives/seek_bar.html',
       replace: true,
       restrict: 'E',
       scope: {},
@@ -33,6 +33,8 @@
             width: percentString()
           };
         };
+        
+
 
         scope.trackThumb = function () {
           $document.bind('mousemove.thumb', function (event) {
